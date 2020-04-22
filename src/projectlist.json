@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "project_name": "Note Taker",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "languages": "Need to check",
+    "url": "https://bclark07.github.io/note_taker/"
+  },
+  {
+    "id": 2,
+    "project_name": "Burger Logger",
+    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "languages": "Handlebars",
+    "url": "https://handlebars-burger-hw.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "project_name": "Employee Directory Search",
+    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "languages": "React",
+    "url": "https://bclark07.github.io/react_employee_directory/"
+  }
+]
