@@ -27,7 +27,7 @@ function Navbar(props) {
       </li>
       <li className="nav-item">
         <a
-          href="/#contactme"
+          href="/#sayhello"
           onClick={() => props.handlePageChange("Contact")}
           className={
             props.currentPage === "Contact" ? "nav-link active" : "nav-link"
