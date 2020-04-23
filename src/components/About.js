@@ -3,16 +3,26 @@ import photo from "../images/ClarkPhoto.jpg"; // How get image to load
 
 const About = () => (
   <div>
-    <h1>About Page</h1>
-    <img alt="headshot" src={photo} />
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer
-      gravida dui mauris, ut interdum nunc egestas sed. Aenean sed mollis diam.
-      Nunc aliquet risus ac finibus porta. Nam quis arcu non lectus tincidunt
-      fermentum. Suspendisse aliquet orci porta quam semper imperdiet. Praesent
-      euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+    <div class="container">
+      <div class="headerSection text-center">
+        <h1>Brittany J. Clark</h1>
+      </div>
+      <img alt="headshot" src={photo} />
+      <p>
+        My name is Brittany Clark and I live in Raleigh, NC. I currently work as
+        a Client Success Manager for a software company based out of Cary, NC. I
+        have a dual Masters degrees from the University of North Carolina at
+        Chapel Hill in Social Work and Public Administration, and I decided to
+        return to UNC Chapel Hill to complete the Full-stack Coding Bootcamp
+        certificate program and graduated in April 2020. The program covered
+        languages that include HTML5, CSS3, JavaScript, jQuery, Bootstrap,
+        Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command
+        Line, Git, and more. I enjoy working in the full stack aspects and
+        ultimately strive to create quality user interface that help people
+        track and organize their data. THe projects in my portfolio are an
+        example of this.
+      </p>
+    </div>
   </div>
 );
 

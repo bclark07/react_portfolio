@@ -6,15 +6,6 @@ import Contact from "./components/Contact";
 // import React, { useState } from "react";
 // import { Route, Switch } from "react-router-dom";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navbar />
-//       <Body />
-//     </div>
-//   );
-// }
-
 class App extends Component {
   state = {
     currentPage: "About",
@@ -36,7 +27,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="d-flex justify-content-center">
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
