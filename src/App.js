@@ -27,12 +27,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="d-flex justify-content-center">
+      <div>
         <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
-        {this.renderPage()}
+        <div className="d-flex justify-content-center">{this.renderPage()}</div>
       </div>
     );
   }

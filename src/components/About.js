@@ -7,7 +7,12 @@ const About = () => (
       <div class="headerSection text-center">
         <h1>Brittany J. Clark</h1>
       </div>
-      <img alt="headshot" src={photo} />
+      <img
+        alt="headshot"
+        src={photo}
+        style={({ height: "300px" }, { width: "300px" })}
+        className="container rounded float-left border border-danger mr-3"
+      />
       <p>
         My name is Brittany Clark and I live in Raleigh, NC. I currently work as
         a Client Success Manager for a software company based out of Cary, NC. I
@@ -19,7 +24,7 @@ const About = () => (
         Express.js, React.js, Node.js, Database Theory, MongoDB, MySQL, Command
         Line, Git, and more. I enjoy working in the full stack aspects and
         ultimately strive to create quality user interface that help people
-        track and organize their data. THe projects in my portfolio are an
+        track and organize their data. The projects in my portfolio are an
         example of this.
       </p>
     </div>

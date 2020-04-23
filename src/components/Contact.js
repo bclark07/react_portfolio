@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container rounded float-left border border-secondary">
+    <div className="container rounded float-left border border-secondary mt-3">
       <div className="form-group contact">
         <label htmlFor="examphtmlFeFormControlInput1">
           Contact Information
@@ -24,11 +24,11 @@ const Contact = () => {
         <label htmlFor="examphtmlFeFormControlInput1">Comment</label>
         <div className="row">
           <div className="col">
-            <input
-              type="text"
+            <textarea
               className="form-control"
-              placeholder="Comment Here"
-            />
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
         </div>
       </div>
