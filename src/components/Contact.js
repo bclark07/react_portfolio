@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container rounded float-left border border-secondary">
       <div className="form-group contact">
         <label htmlFor="examphtmlFeFormControlInput1">
           Contact Information
