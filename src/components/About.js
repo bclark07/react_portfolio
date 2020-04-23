@@ -11,7 +11,7 @@ const About = () => (
         alt="headshot"
         src={photo}
         style={({ height: "300px" }, { width: "300px" })}
-        className="container rounded float-left border border-danger mr-3"
+        className="container rounded float-left border border-danger mr-3 p-0"
       />
       <p>
         My name is Brittany Clark and I live in Raleigh, NC. I currently work as
