@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import git from "../images/github.png"; // How get image to load
+import linked from "../images/linkedIn.png"; // How get image to load
 
 const Contact = () => {
   const [contactName, setContactName] = useState("");
@@ -57,25 +59,27 @@ const Contact = () => {
           Submit
         </button>
       </div>
-      <div className="col-sm-6 text-white">
-        Social Media:
-        <div clasName="social">
-          <li className="pl-2 mr-2 mb-2" style={{ fontSize: "16px" }}>
+      <div className="social m-3">
+        <div className="row justify-content-center">
+          <h5>Social Media: </h5>
+        </div>
+
+        <div className="row justify-content-around">
+          <div className="col-4">
             <a href="https://github.com/bclark07" title="Github">
               <div class="sharethis-inline-follow-buttons"></div>
-              <img src="https://img.icons8.com/material-rounded/24/000000/github.png" />{" "}
-              GitHub
+              <img src={git} /> GitHub
             </a>
-          </li>
-          <li className="pl-2 mr-2 mb-2 " style={{ fontSize: "16px" }}>
+          </div>
+          <div className="col-4">
             <a
               href="https://www.linkedin.com/in/brittany-j-clark-bbbb7693/"
               title="LinkedIn"
             >
-              <img src="https://www.linkedin.com/in/brittany-j-clark-bbbb7693/" />
+              <img src={linked} />
               LinkedIn
             </a>
-          </li>
+          </div>
         </div>
       </div>
     </div>
