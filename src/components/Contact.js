@@ -59,11 +59,27 @@ const Contact = () => {
       </div>
       <div className="col-sm-6 text-white">
         Social Media:
-        <div clasName="social"></div>
+        <div clasName="social">
+          <li className="pl-2 mr-2 mb-2" style={{ fontSize: "16px" }}>
+            <a href="https://github.com/bclark07" title="Github">
+              <div class="sharethis-inline-follow-buttons"></div>
+              <img src="https://img.icons8.com/material-rounded/24/000000/github.png" />{" "}
+              GitHub
+            </a>
+          </li>
+          <li className="pl-2 mr-2 mb-2 " style={{ fontSize: "16px" }}>
+            <a
+              href="https://www.linkedin.com/in/brittany-j-clark-bbbb7693/"
+              title="LinkedIn"
+            >
+              <img src="https://www.linkedin.com/in/brittany-j-clark-bbbb7693/" />
+              LinkedIn
+            </a>
+          </li>
+        </div>
       </div>
     </div>
   );
-  console.log(contactName);
 };
 
 export default Contact;
