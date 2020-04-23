@@ -5,7 +5,7 @@ function Navbar(props) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="/#about"
+          href="/"
           onClick={() => props.handlePageChange("About")}
           className={
             props.currentPage === "About" ? "nav-link active" : "nav-link"
