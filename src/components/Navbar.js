@@ -1,42 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="/"
-          onClick={() => props.handlePageChange("About")}
-          className={
-            props.currentPage === "About" ? "nav-link active" : "nav-link"
-          }
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="/#projects"
-          onClick={() => props.handlePageChange("Projects")}
-          className={
-            props.currentPage === "Projects" ? "nav-link active" : "nav-link"
-          }
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="/#sayhello"
-          onClick={() => props.handlePageChange("Contact")}
-          className={
-            props.currentPage === "Contact" ? "nav-link active" : "nav-link"
-          }
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
+    // <nav class="nav">
+    <div class="container">
+      <ul className="nav nav-tabs d-flex flex-row py-3">
+        <li className="nav-item">
+          <Link to="/" className="nav-item m-3">
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/projects" className="nav-item m-3">
+            Projects
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/contactme" className="nav-item m-3">
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 

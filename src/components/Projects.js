@@ -5,7 +5,7 @@ import projectlist from "../projectlist.json";
 const Projects = () => {
   return (
     <div className="container text-center">
-      <p>Click on a Project to learn more</p>
+      <p>Click on a project to learn more</p>
       <div className="row card-deck">
         <ProjectCard
           project_name={projectlist[0].project_name}
@@ -35,7 +35,5 @@ const Projects = () => {
     </div>
   );
 };
-
-// why matters - function {} vs const ()
 
 export default Projects;
